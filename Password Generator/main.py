@@ -5,6 +5,11 @@ import string
 
 class password:
 
+    letters = string.ascii_letters
+    digits = string.digits
+    specialChars = string.punctuation
+    alphabet = letters + digits + specialChars
+
     def charLimit(value):
         """character limit"""
         if type(value) != int:
@@ -13,5 +18,3 @@ class password:
             raise Exception("{} must be greater than zero".format(value))
         
         len(password) = len(value)
-
-
