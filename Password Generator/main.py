@@ -17,4 +17,7 @@ class password:
         elif value <= 0:
             raise Exception("{} must be greater than zero".format(value))
         
-        len(password) = len(value)
+        for i in range(value):
+            
+
+    
