@@ -18,6 +18,6 @@ class password:
             raise Exception("{} must be greater than zero".format(value))
         
         for i in range(value):
-            
+            pass
 
-    
+    pwd = ' '
